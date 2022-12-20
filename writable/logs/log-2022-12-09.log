@@ -1,0 +1,314 @@
+CRITICAL - 2022-12-09 05:24:21 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 05:27:32 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 05:27:34 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 05:27:35 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 05:27:38 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 16:01:51 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:03:24 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:03:26 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:03:27 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:05:48 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:05:50 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:05:51 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:06:18 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:06:19 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:07:34 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:09:55 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:11:12 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:11:13 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:11:14 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:11:15 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:11:19 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:11:20 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:13:14 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:13:15 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:13:16 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:13:17 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:13:37 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:13:39 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:13:39 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:16:22 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:16:24 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:16:25 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:18:21 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:18:23 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:18:24 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:18:48 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:18:49 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:18:50 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:18:51 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 16:18:52 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Unidades.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 17:15:21 --> Undefined variable $datos
+in APPPATH\Views\unidades\nuevo.php on line 27.
+ 1 APPPATH\Views\unidades\nuevo.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Views\\unidades\\nuevo.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unidades\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('unidades/nuevo', [], true)
+ 5 APPPATH\Controllers\Unidades.php(31): view('unidades/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Unidades->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 18:41:40 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-09 18:43:23 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `un...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `un...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `un...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `un...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Unidades.php(52): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(927): App\Controllers\Unidades->actualizar()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-09 18:43:23 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `unidades` (`nombre`, `nombre_corto`, `fecha_alta`, `fecha_edit`) VALUES (NULL, NULL, \'2022-12-09 18:43:23\', \'2022-12-09 18:43:23\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `unidades` (`nombre`, `nombre_corto`, `fecha_alta`, `fecha_edit`) VALUES (NULL, NULL, \'2022-12-09 18:43:23\', \'2022-12-09 18:43:23\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `unidades` (`nombre`, `nombre_corto`, `fecha_alta`, `fecha_edit`) VALUES (NULL, NULL, \'2022-12-09 18:43:23\', \'2022-12-09 18:43:23\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `unidades` (`nombre`, `nombre_corto`, `fecha_alta`, `fecha_edit`) VALUES (:nombre:, :nombre_corto:, :fecha_alta:, :fecha_edit:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Unidades.php(52): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Unidades->actualizar()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 18:44:26 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 18:48:42 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 18:48:43 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 18:49:26 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 18:53:34 --> Undefined variable $unidad
+in APPPATH\Controllers\Unidades.php on line 43.
+ 1 APPPATH\Controllers\Unidades.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidad', 'APPPATH\\Controllers\\Unidades.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Unidades->editar('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
