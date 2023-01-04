@@ -1,0 +1,528 @@
+CRITICAL - 2022-12-30 12:08:29 --> Class 'App\Controllers\ProductoModel' not found
+in APPPATH\Controllers\Inicio.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Inicio->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 12:08:33 --> Class 'App\Controllers\ProductoModel' not found
+in APPPATH\Controllers\Inicio.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Inicio->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 12:09:15 --> Undefined variable: dato
+in APPPATH\Controllers\Inicio.php on line 22.
+ 1 APPPATH\Controllers\Inicio.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dato', 'APPPATH\\Controllers\\Inicio.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inicio->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 14:12:27 --> Call to a member function totalDia() on null
+in APPPATH\Controllers\Inicio.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inicio->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 14:20:29 --> Trying to get property 'total' of non-object
+in APPPATH\Views\inicio.php on line 21.
+ 1 APPPATH\Views\inicio.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'total\' of non-object', 'APPPATH\\Views\\inicio.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inicio', [], true)
+ 5 APPPATH\Controllers\Inicio.php(28): view('inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 14:20:44 --> Trying to get property 'total' of non-object
+in APPPATH\Views\inicio.php on line 21.
+ 1 APPPATH\Views\inicio.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'total\' of non-object', 'APPPATH\\Views\\inicio.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inicio', [], true)
+ 5 APPPATH\Controllers\Inicio.php(28): view('inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 15:01:11 --> Methods with the same name as their class will not be constructors in a future version of PHP; barcode has a deprecated constructor
+in APPPATH\Libraries\barcode.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Methods with the same name as their class will not be constructors in a future version of PHP; barcode has a deprecated constructor', 'APPPATH\\Libraries\\barcode.php', 10, [...])
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(218): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\barcode.php')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('Barcode')
+ 5 APPPATH\Controllers\Productos.php(211): spl_autoload_call('Barcode')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Productos->generaBarras()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 15:21:09 --> Too few arguments to function App\Controllers\Productos::muestraCodigos(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Productos.php on line 211.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Productos->muestraCodigos()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 15:22:02 --> Invalid file: ventas/codigo.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ventas/codigo.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('ventas/codigo', [], true)
+ 3 APPPATH\Controllers\Productos.php(214): view('ventas/codigo')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Productos->muestraCodigos()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 15:24:06 --> Invalid file: productos/ver_codigos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/ver_codigos.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('productos/ver_codigos', [], true)
+ 3 APPPATH\Controllers\Productos.php(214): view('productos/ver_codigos')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Productos->muestraCodigos()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 15:25:44 --> Invalid file: productos/ver_codigos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/ver_codigos.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('productos/ver_codigos', [], true)
+ 3 APPPATH\Controllers\Productos.php(214): view('productos/ver_codigos')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Productos->muestraCodigos()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 15:28:15 --> Invalid file: productos/ver_codigos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/ver_codigos.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('productos/ver_codigos', [], true)
+ 3 APPPATH\Controllers\Productos.php(214): view('productos/ver_codigos')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Productos->muestraCodigos()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 15:55:10 --> unlink(images/barcode/1234567890png): No such file or directory
+in APPPATH\Controllers\Productos.php on line 232.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/barcode/1234567890png): No such file or directory', 'APPPATH\\Controllers\\Productos.php', 232, [...])
+ 2 APPPATH\Controllers\Productos.php(232): unlink('images/barcode/1234567890png')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Productos->generaBarras()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 17:05:52 --> Undefined index: nombre_corto
+in APPPATH\Views\roles\roles.php on line 31.
+ 1 APPPATH\Views\roles\roles.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nombre_corto', 'APPPATH\\Views\\roles\\roles.php', 31, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\roles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/roles', [], true)
+ 5 APPPATH\Controllers\Roles.php(41): view('roles/roles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 17:33:46 --> Undefined variable: session
+in APPPATH\Controllers\Ventas.php on line 64.
+ 1 APPPATH\Controllers\Ventas.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'APPPATH\\Controllers\\Ventas.php', 64, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 17:35:29 --> Undefined variable: caja
+in APPPATH\Controllers\Ventas.php on line 66.
+ 1 APPPATH\Controllers\Ventas.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: caja', 'APPPATH\\Controllers\\Ventas.php', 66, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 17:39:51 --> mysqli_sql_exception: Unknown column 'fecha_modifica' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` ...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` ...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` ...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` ...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-30 17:39:51 --> Unknown column 'fecha_modifica' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:39:51\'
+WHERE `cajas`.`id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:39:51\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:39:51\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` SET `folio` = :folio:, `fecha_modifica` = :fecha_modifica:
+WHERE `cajas`.`id` IN :cajas.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 17:40:02 --> mysqli_sql_exception: Unknown column 'fecha_modifica' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` ...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` ...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` ...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` ...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-30 17:40:02 --> Unknown column 'fecha_modifica' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:40:02\'
+WHERE `cajas`.`id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:40:02\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:40:02\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` SET `folio` = :folio:, `fecha_modifica` = :fecha_modifica:
+WHERE `cajas`.`id` IN :cajas.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 17:42:12 --> mysqli_sql_exception: Unknown column 'fecha_modifica' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` ...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` ...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` ...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` ...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-30 17:42:12 --> Unknown column 'fecha_modifica' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:42:12\'
+WHERE `cajas`.`id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:42:12\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:42:12\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` SET `folio` = :folio:, `fecha_modifica` = :fecha_modifica:
+WHERE `cajas`.`id` IN :cajas.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 17:45:05 --> mysqli_sql_exception: Unknown column 'fecha_modifica' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` ...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` ...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` ...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` ...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-30 17:45:05 --> Unknown column 'fecha_modifica' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:45:05\'
+WHERE `cajas`.`id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:45:05\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:45:05\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` SET `folio` = :folio:, `fecha_modifica` = :fecha_modifica:
+WHERE `cajas`.`id` IN :cajas.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 17:48:38 --> mysqli_sql_exception: Unknown column 'fecha_modifica' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` ...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` ...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` ...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` ...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-30 17:48:38 --> Unknown column 'fecha_modifica' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:48:38\'
+WHERE `cajas`.`id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:48:38\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:48:38\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` SET `folio` = :folio:, `fecha_modifica` = :fecha_modifica:
+WHERE `cajas`.`id` IN :cajas.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 17:53:43 --> mysqli_sql_exception: Unknown column 'fecha_modifica' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` ...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` ...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` ...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` ...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-30 17:53:43 --> Unknown column 'fecha_modifica' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:53:43\'
+WHERE `cajas`.`id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:53:43\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:53:43\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` SET `folio` = :folio:, `fecha_modifica` = :fecha_modifica:
+WHERE `cajas`.`id` IN :cajas.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 17:55:36 --> mysqli_sql_exception: Unknown column 'fecha_modifica' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` ...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` ...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` ...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` ...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-30 17:55:36 --> Unknown column 'fecha_modifica' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:55:36\'
+WHERE `cajas`.`id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:55:36\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:55:36\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` SET `folio` = :folio:, `fecha_modifica` = :fecha_modifica:
+WHERE `cajas`.`id` IN :cajas.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 17:59:45 --> mysqli_sql_exception: Unknown column 'fecha_modifica' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` ...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` ...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` ...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` ...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-30 17:59:45 --> Unknown column 'fecha_modifica' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:59:45\'
+WHERE `cajas`.`id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:59:45\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `cajas` SET `folio` = 3, `fecha_modifica` = \'2022-12-30 17:59:45\'
+WHERE `cajas`.`id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `cajas` SET `folio` = :folio:, `fecha_modifica` = :fecha_modifica:
+WHERE `cajas`.`id` IN :cajas.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Ventas.php(75): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 18:26:53 --> Undefined variable: session
+in APPPATH\Controllers\Inicio.php on line 20.
+ 1 APPPATH\Controllers\Inicio.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'APPPATH\\Controllers\\Inicio.php', 20, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inicio->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 18:27:18 --> Undefined variable: session
+in APPPATH\Controllers\Inicio.php on line 15.
+ 1 APPPATH\Controllers\Inicio.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'APPPATH\\Controllers\\Inicio.php', 15, [])
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Inicio->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 18:51:09 --> Call to undefined function App\Controllers\NOW()
+in APPPATH\Controllers\Usuarios.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->valida()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 19:41:25 --> syntax error, unexpected '}', expecting ';' or ','
+in APPPATH\Views\roles\detalles.php on line 13.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/detalles', [], true)
+ 3 APPPATH\Controllers\Roles.php(119): view('roles/detalles', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->detalles('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 19:49:29 --> Undefined variable: idRol
+in APPPATH\Views\roles\detalles.php on line 8.
+ 1 APPPATH\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idRol', 'APPPATH\\Views\\roles\\detalles.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\detalles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/detalles', [], true)
+ 5 APPPATH\Controllers\Roles.php(119): view('roles/detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->detalles('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 20:12:19 --> mysqli_sql_exception: Table 'pos.detalles_roles_permiso' doesn't exist in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Roles.php(135): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(927): App\Controllers\Roles->guardaPermisos()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-30 20:12:19 --> Table 'pos.detalles_roles_permiso' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `detalles_roles_permiso` (`id_rol`, `id_permiso`) VALUES (\'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `detalles_roles_permiso` (`id_rol`, `id_permiso`) VALUES (\'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `detalles_roles_permiso` (`id_rol`, `id_permiso`) VALUES (\'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detalles_roles_permiso` (`id_rol`, `id_permiso`) VALUES (:id_rol:, :id_permiso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Roles.php(135): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->guardaPermisos()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 20:13:01 --> mysqli_sql_exception: Table 'pos.detalle_roles_permiso' doesn't exist in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Roles.php(135): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(927): App\Controllers\Roles->guardaPermisos()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-30 20:13:02 --> Table 'pos.detalle_roles_permiso' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `detalle_roles_permiso` (`id_rol`, `id_permiso`) VALUES (\'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `detalle_roles_permiso` (`id_rol`, `id_permiso`) VALUES (\'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `detalle_roles_permiso` (`id_rol`, `id_permiso`) VALUES (\'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detalle_roles_permiso` (`id_rol`, `id_permiso`) VALUES (:id_rol:, :id_permiso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Roles.php(135): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->guardaPermisos()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 20:17:02 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Roles.php on line 135.
+ 1 APPPATH\Controllers\Roles.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Roles.php', 135, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->guardaPermisos()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 21:13:47 --> Undefined offset: 2
+in APPPATH\Views\roles\detalles.php on line 11.
+ 1 APPPATH\Views\roles\detalles.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'APPPATH\\Views\\roles\\detalles.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\detalles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/detalles', [], true)
+ 5 APPPATH\Controllers\Roles.php(128): view('roles/detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->detalles('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 21:15:35 --> Undefined offset: 2
+in APPPATH\Views\roles\detalles.php on line 11.
+ 1 APPPATH\Views\roles\detalles.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'APPPATH\\Views\\roles\\detalles.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\roles\\detalles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('roles/detalles', [], true)
+ 5 APPPATH\Controllers\Roles.php(128): view('roles/detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Roles->detalles('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

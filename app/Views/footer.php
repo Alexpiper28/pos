@@ -16,7 +16,6 @@
 <script src="<?php echo base_url(); ?>/js/scripts.js"></script>
 <script src="<?php echo base_url(); ?>/js/simple-datatables@latest.js"></script>
 <script src="<?php echo base_url(); ?>/js/datatables-simple-demo.js"></script>
-<script src="<?php echo base_url(); ?>/js/jquery-3.6.1.min.js"></script>   
 
 <script>
     $('#modal-confirma').on('show.bs.modal', function(e){

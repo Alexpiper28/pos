@@ -1,0 +1,420 @@
+CRITICAL - 2022-12-28 07:07:00 --> Invalid file: ventas/caja.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ventas/caja.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('ventas/caja', [], true)
+ 3 APPPATH\Controllers\Ventas.php(38): view('ventas/caja')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->venta()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 10:17:23 --> Call to undefined method App\Models\VentasModel::insertaCompra
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Ventas.php(49): CodeIgniter\Model->__call('insertaCompra', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 10:40:13 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 10:42:21 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 10:51:37 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 10:57:37 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 11:13:59 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 11:19:53 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 11:25:42 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 11:26:21 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 11:28:39 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 12:05:53 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 12:09:12 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 12:09:13 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 12:13:47 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 12:13:49 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 12:23:17 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 12:23:29 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 12:24:50 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 12:35:13 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 12:38:52 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 12:40:12 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 12:56:32 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 13:30:34 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 13:38:06 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 14:15:40 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 14:26:50 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 14:26:57 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 14:39:59 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 14:46:37 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 14:46:41 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 14:46:52 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 14:47:03 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 14:48:01 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:01:14 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:03:07 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:05:18 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:08:22 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:08:26 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:12:59 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:14:20 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:15:56 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:16:01 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:16:06 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:16:19 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:19:25 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:19:29 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:19:43 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:19:51 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:29:57 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:31:37 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:31:41 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:31:42 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:33:51 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:36:09 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:45:45 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:47:04 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:59:30 --> Call to a member function insertaVenta() on null
+in APPPATH\Controllers\Ventas.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:37:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ventas.php on line 108.
+ 1 APPPATH\Controllers\Ventas.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ventas.php', 108, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->generaTicket('10')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 19:31:27 --> mysqli_sql_exception: Unknown column 'ventas.fecha' in 'order clause' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ventas`...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ventas`...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ventas`...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ventas`...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentasModel.php(48): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(27): App\Models\VentasModel->obtener(1)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(927): App\Controllers\Ventas->index()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-28 19:31:27 --> Unknown column 'ventas.fecha' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ventas`.*, `u`.`usuario` AS `cajero`, `c`.`nombre` AS `cliente`
+FROM `ventas`
+JOIN `usuarios` AS `u` ON `ventas`.`id_usuario` = `u`.`id`
+JOIN `clientes` AS `c` ON `ventas`.`id_cliente` = `c`.`id`
+WHERE `ventas`.`activo` = 1
+ORDER BY `ventas`.`fecha` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ventas`.*, `u`.`usuario` AS `cajero`, `c`.`nombre` AS `cliente`
+FROM `ventas`
+JOIN `usuarios` AS `u` ON `ventas`.`id_usuario` = `u`.`id`
+JOIN `clientes` AS `c` ON `ventas`.`id_cliente` = `c`.`id`
+WHERE `ventas`.`activo` = 1
+ORDER BY `ventas`.`fecha` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ventas`.*, `u`.`usuario` AS `cajero`, `c`.`nombre` AS `cliente`
+FROM `ventas`
+JOIN `usuarios` AS `u` ON `ventas`.`id_usuario` = `u`.`id`
+JOIN `clientes` AS `c` ON `ventas`.`id_cliente` = `c`.`id`
+WHERE `ventas`.`activo` = 1
+ORDER BY `ventas`.`fecha` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ventas`.*, `u`.`usuario` AS `cajero`, `c`.`nombre` AS `cliente`
+FROM `ventas`
+JOIN `usuarios` AS `u` ON `ventas`.`id_usuario` = `u`.`id`
+JOIN `clientes` AS `c` ON `ventas`.`id_cliente` = `c`.`id`
+WHERE `ventas`.`activo` = :ventas.activo:
+ORDER BY `ventas`.`fecha` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\VentasModel.php(48): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Ventas.php(27): App\Models\VentasModel->obtener(1)
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 20:41:25 --> Call to a member function actualizaStock() on null
+in APPPATH\Controllers\Ventas.php on line 153.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ventas->eliminar('13')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 21:27:57 --> Call to undefined method App\Controllers\Configuracion::request()
+in APPPATH\Controllers\Configuracion.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Configuracion->actualizar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

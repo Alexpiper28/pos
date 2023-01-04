@@ -19,7 +19,9 @@ class ConfiguracionModel extends Model
     protected $allowedFields = ['nombre', 'valor'];
 
     protected $useTimestamps = true;
-    protected $deletedField  = 'deleted_at';
+    protected $createdField = '';
+    protected $updatedField = '';
+    protected $deletedField = '';
 
     protected $validationRules    = [];
     protected $validationMessages = [];

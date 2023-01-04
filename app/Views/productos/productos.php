@@ -7,6 +7,7 @@
                             <p>
                                 <a href="<?php echo base_url();?>/productos/nuevo" class="btn btn-info">Agregar</a>
                                 <a href="<?php echo base_url();?>/productos/eliminados" class="btn btn-warning">Eliminados</a>
+                                <a href="<?php echo base_url();?>/productos/muestraCodigos" class="btn btn-primary">Códigos de barras</a>
                             </p>
 
                         </div>
@@ -19,6 +20,7 @@
                                             <th>Nombre</th>
                                             <th>Precio</th>
                                             <th>Existencias</th>
+                                            <th>Imagen</th>
                                             <th></th>
                                             <th></th>
 
@@ -33,6 +35,8 @@
                                                 <td><?php echo $dato['nombre']; ?></td>
                                                 <td><?php echo $dato['precio_venta']; ?></td>
                                                 <td><?php echo $dato['existencias']; ?></td>
+
+                                                <td><img src="<?php echo base_url() . '/images/productos/'.$dato['id'].'/foto_1.jpg'; ?>" width="100" /></td>
                                                 
                                                 <td><a href="<?php echo base_url(). '/productos/editar/'. $dato['id']; ?>" class="btn btn-warning"><i class="fa-solid fa-pencil"></i></a></td>
                                                 

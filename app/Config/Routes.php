@@ -17,7 +17,7 @@ if (is_file(SYSTEMPATH . 'Config/Routes.php')) {
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
+$routes->setDefaultController('Usuarios');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -35,12 +35,19 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Usuarios::login');
 $routes->get('unidades', 'Unidades::index');
 $routes->get('categorias', 'Categorias::index');
 $routes->get('productos', 'Productos::index');
 $routes->get('clientes', 'Clientes::index');
 $routes->get('configuracion', 'Configuracion::index');
+$routes->get('usuarios', 'Usuarios::index');
+$routes->get('compras', 'Compras::index');
+$routes->get('ventas', 'Ventas::index');
+$routes->get('inicio', 'Inicio::index');
+$routes->get('roles', 'Roles::index');
+$routes->get('cajas', 'Cajas::index');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
@@ -81,6 +88,7 @@ $routes->post('productos/actualizar', 'Productos::actualizar');
 $routes->get('productos/eliminar/(:num)', 'Productos::eliminar/$1');
 $routes->get('productos/eliminados', 'Productos::eliminados');
 $routes->get('productos/reingresar/(:num)', 'Productos::reingresar/$1');
+$routes->get('productos/buscarPorCodigo/(:any)', 'Productos::buscarPorCodigo/$1');
 
 $routes->get('clientes/nuevo', 'Clientes::nuevo');
 $routes->post('clientes/insertar', 'Clientes::insertar');
@@ -91,3 +99,66 @@ $routes->get('clientes/eliminados', 'Clientes::eliminados');
 $routes->get('clientes/reingresar/(:num)', 'Clientes::reingresar/$1');
 
 $routes->post('configuracion/actualizar', 'Configuracion::actualizar');
+
+$routes->get('usuarios/nuevo', 'Usuarios::nuevo');
+$routes->post('usuarios/insertar', 'Usuarios::insertar');
+$routes->get('usuarios/editar/(:num)', 'Usuarios::editar/$1');
+$routes->post('usuarios/actualizar', 'Usuarios::actualizar');
+$routes->get('usuarios/eliminar/(:num)', 'Usuarios::eliminar/$1');
+$routes->get('usuarios/eliminados', 'Usuarios::eliminados');
+$routes->get('usuarios/reingresar/(:num)', 'Usuarios::reingresar/$1');
+$routes->post('usuarios/valida', 'Usuarios::valida');
+$routes->get('usuarios/logout', 'Usuarios::logout');
+$routes->get('usuarios/cambia_password', 'Usuarios::cambia_password');
+$routes->post('usuarios/actualizar_password', 'Usuarios::actualizar_password');
+
+$routes->get('compras/nuevo', 'Compras::nuevo');
+$routes->get('TemporalCompra/inserta/(:num)/(:num)/(:any)', 'TemporalCompra::inserta/$1/$2/$3');
+$routes->get('TemporalCompra/eliminar/(:num)/(:any)', 'TemporalCompra::eliminar/$1/$2');
+$routes->post('compras/guarda', 'Compras::guarda');
+$routes->get('compras/muestraCompraPdf/(:num)', 'Compras::muestraCompraPdf/$1');
+$routes->get('compras/generaCompraPdf/(:num)', 'Compras::generaCompraPdf/$1');
+
+
+$routes->get('ventas/venta', 'Ventas::venta');
+$routes->post('ventas/guarda', 'Ventas::guarda');
+$routes->get('ventas/muestraTicket/(:num)', 'Ventas::muestraTicket/$1');
+$routes->get('ventas/generaTicket/(:num)', 'Ventas::generaTicket/$1');
+$routes->get('ventas/eliminar/(:num)', 'Ventas::eliminar/$1');
+$routes->get('ventas/eliminados', 'Ventas::eliminados');
+
+$routes->get('clientes/autocompleteData', 'Clientes::autocompleteData');
+$routes->get('productos/autocompleteData', 'Productos::autocompleteData');
+$routes->get('productos/generaBarras', 'Productos::generaBarras');
+$routes->get('productos/muestraCodigos', 'Productos::muestraCodigos');
+$routes->get('productos/mostrarMinimos', 'Productos::mostrarMinimos');
+$routes->get('productos/generaMinimosPdf', 'Productos::generaMinimosPdf');
+
+$routes->get('roles/nuevo', 'Roles::nuevo');
+$routes->post('roles/insertar', 'Roles::insertar');
+$routes->get('roles/editar/(:num)', 'Roles::editar/$1');
+$routes->post('roles/actualizar', 'Roles::actualizar');
+$routes->get('roles/eliminar/(:num)', 'Roles::eliminar/$1');
+$routes->get('roles/eliminados', 'Roles::eliminados');
+$routes->get('roles/reingresar/(:num)', 'Roles::reingresar/$1');
+$routes->get('roles/detalles/(:num)', 'Roles::detalles/$1');
+$routes->post('roles/guardaPermisos', 'Roles::guardaPermisos');
+
+$routes->get('cajas/nuevo', 'Cajas::nuevo');
+$routes->post('cajas/insertar', 'Cajas::insertar');
+$routes->get('cajas/editar/(:num)', 'Cajas::editar/$1');
+$routes->post('cajas/actualizar', 'Cajas::actualizar');
+$routes->get('cajas/eliminar/(:num)', 'Cajas::eliminar/$1');
+$routes->get('cajas/eliminados', 'Cajas::eliminados');
+$routes->get('cajas/reingresar/(:num)', 'Cajas::reingresar/$1');
+$routes->get('cajas/arqueo/(:num)', 'Cajas::arqueo/$1');
+$routes->get('cajas/nuevo_arqueo', 'Cajas::nuevo_arqueo');
+$routes->post('cajas/nuevo_arqueo', 'Cajas::nuevo_arqueo');
+$routes->get('cajas/cerrar/(:num)', 'Cajas::cerrar/$1');
+$routes->post('cajas/cerrar', 'Cajas::cerrar');
+
+$routes->get('factura/facturar/(:num)', 'Factura::facturar/$1');
+$routes->get('factura/generaPdf/(:any)', 'Factura::generaPdf/$1');
+
+$routes->get('inicio/excel', 'Inicio::excel');
+$routes->get('productos/mostrarMinimosExcel', 'Productos::mostrarMinimosExcel');
