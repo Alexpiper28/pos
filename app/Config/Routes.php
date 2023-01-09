@@ -47,6 +47,7 @@ $routes->get('ventas', 'Ventas::index');
 $routes->get('inicio', 'Inicio::index');
 $routes->get('roles', 'Roles::index');
 $routes->get('cajas', 'Cajas::index');
+$routes->get('logs', 'Logs::index');
 
 /*
  * --------------------------------------------------------------------
@@ -162,3 +163,4 @@ $routes->get('factura/generaPdf/(:any)', 'Factura::generaPdf/$1');
 
 $routes->get('inicio/excel', 'Inicio::excel');
 $routes->get('productos/mostrarMinimosExcel', 'Productos::mostrarMinimosExcel');
+

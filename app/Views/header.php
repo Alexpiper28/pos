@@ -104,6 +104,7 @@ $user_session = session();
                                     <a class="nav-link" href="<?php echo base_url(); ?>/usuarios">Usuarios</a>
                                     <a class="nav-link" href="<?php echo base_url(); ?>/roles">Roles</a>
                                     <a class="nav-link" href="<?php echo base_url(); ?>/cajas">Cajas</a>
+                                    <a class="nav-link" href="<?php echo base_url(); ?>/logs">Logs de acceso</a>
 
                                 </nav>
                             </div>

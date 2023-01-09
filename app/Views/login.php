@@ -19,7 +19,7 @@ $user_session = session();
     <body class="bg-primary">
         <?php  print_r($user_session->nombre);?>
         <div id="layoutAuthentication">
-            <div id="layoutAuthentication_content">
+            <div id="layoutAuthentication_content" style="background-image: url(/images/log1.jpg); background-position: center; background-repeat: no-repeat; background-size: cover">
                 <main>
                     <div class="container">
                         <div class="row justify-content-center">
