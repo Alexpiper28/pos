@@ -26,7 +26,7 @@ $user_session = session();
     </head>
     
     <body class="sb-nav-fixed">
-        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-warning">
             <!-- Navbar Brand-->
             <a class="navbar-brand ps-3" href="<?php echo base_url(); ?>/inicio">POS-CDP</a>
             <!-- Sidebar Toggle-->
@@ -47,7 +47,7 @@ $user_session = session();
         </nav>
         <div id="layoutSidenav">
             <div id="layoutSidenav_nav">
-                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <nav class="sb-sidenav accordion sb-sidenav-white" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">

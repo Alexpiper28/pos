@@ -14,7 +14,7 @@ class ClientesModel extends Model
     protected $returnType     = 'array';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['nombre', 'direccion','telefono','correo', 'activo'];
+    protected $allowedFields = ['nombre', 'edad', 'direccion','telefono','correo', 'activo'];
 
     protected $useTimestamps = true;
     protected $createdField  = 'fecha_alta';

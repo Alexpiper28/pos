@@ -27,7 +27,14 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="form-group mt-3">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <label for="edad" class="form-label">Edad</label>
+                            <input type="range" class="form-range" name="edad" id="edad" min="0" max="100" value="<?php echo $cliente['edad']; ?>">
+                        </div>
+                    </div>
+                </div>
                 <div class="form-group mt-3">
                     <div class="row">
                         <div class="col-12 col-sm-6">

@@ -16,6 +16,7 @@
                                         <tr>
                                             <th>Id</th>
                                             <th>Nombre</th>
+                                            <th>Edad</th>
                                             <th>Direccion</th>
                                             <th>Telefono</th>
                                             <th>Correo</th>
@@ -30,6 +31,7 @@
                                             <tr>
                                                 <td><?php echo $dato['id']; ?></td>
                                                 <td><?php echo $dato['nombre']; ?></td>
+                                                <td><?php echo $dato['edad']; ?></td>
                                                 <td><?php echo $dato['direccion']; ?></td>
                                                 <td><?php echo $dato['telefono']; ?></td>
                                                 <td><?php echo $dato['correo']; ?></td>

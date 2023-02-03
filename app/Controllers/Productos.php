@@ -86,7 +86,8 @@ class Productos extends BaseController
                 'stock_minimo' => $this->request->getPost('stock_minimo'), 
                 'inventariable' => $this->request->getPost('inventariable'), 
                 'id_unidad' => $this->request->getPost('id_unidad'), 
-                'id_categoria' => $this->request->getPost('id_categoria')]);
+                'id_categoria' => $this->request->getPost('id_categoria'),
+                'fecha_vencimiento' => $this->request->getPost('fecha_vencimiento')]);
 
                 $id = $this->productos->insertID();
 
@@ -150,7 +151,8 @@ class Productos extends BaseController
         $unidades = $this->unidades->where('activo', 1)->findAll();
         $categorias = $this->categorias->where('activo', 1)->findAll();
         $producto= $this->productos->where('id', $id)->first();
-        $data = ['titulo' => 'Editar producto', 'unidades' => $unidades, 'categorias' => $categorias, 'producto' => $producto];
+        $fechaV= $this->productos->where('id', $id)->first();
+        $data = ['titulo' => 'Editar producto', 'unidades' => $unidades, 'categorias' => $categorias, 'producto' => $producto, 'fechaV' =>$fechaV];
         echo view('header');
         echo view('productos/editar', $data);
         echo view('footer');
@@ -167,7 +169,8 @@ class Productos extends BaseController
             'stock_minimo' => $this->request->getPost('stock_minimo'), 
             'inventariable' => $this->request->getPost('inventariable'), 
             'id_unidad' => $this->request->getPost('id_unidad'), 
-            'id_categoria' => $this->request->getPost('id_categoria')]);
+            'id_categoria' => $this->request->getPost('id_categoria'),
+            'fecha_vencimiento' => $this->request->getPost('fecha_vencimiento')]);
         return redirect()->to(base_url().'/productos');
     }
     public function eliminar($id)
@@ -269,18 +272,20 @@ class Productos extends BaseController
 
         $pdf->Ln(10);
 
-        $pdf->Cell(40, 5, utf8_decode("Código"), 1, 0, 'C');
-        $pdf->Cell(85, 5, utf8_decode("Nombre"), 1, 0, 'C');
-        $pdf->Cell(30, 5, utf8_decode("Existencias"), 1, 0, 'C');
-        $pdf->Cell(30, 5, utf8_decode("Stock mínimo"), 1, 1, 'C');
+        $pdf->Cell(30, 5, utf8_decode("Código"), 1, 0, 'C');
+        $pdf->Cell(80, 5, utf8_decode("Nombre"), 1, 0, 'C');
+        $pdf->Cell(20, 5, utf8_decode("Existencias"), 1, 0, 'C');
+        $pdf->Cell(20, 5, utf8_decode("Stock mínimo"), 1, 0, 'C');
+        $pdf->Cell(35, 5, utf8_decode("Fecha de vencimiento"), 1, 1, 'C');
 
         $datosProductos = $this->productos->getProductosMinino();
 
         foreach($datosProductos as $producto){
-            $pdf->Cell(40, 5, $producto['codigo'], 1, 0, 'C');
-            $pdf->Cell(85, 5, utf8_decode($producto['nombre']), 1, 0, 'C');
-            $pdf->Cell(30, 5, $producto['existencias'], 1, 0, 'C');
-            $pdf->Cell(30, 5, $producto['stock_minimo'], 1, 1, 'C');
+            $pdf->Cell(30, 5, $producto['codigo'], 1, 0, 'C');
+            $pdf->Cell(80, 5, utf8_decode($producto['nombre']), 1, 0, 'C');
+            $pdf->Cell(20, 5, $producto['existencias'], 1, 0, 'C');
+            $pdf->Cell(20, 5, $producto['stock_minimo'], 1, 0, 'C');
+            $pdf->Cell(35, 5, $producto['fecha_vencimiento'], 1, 1, 'C');
             
         }
 

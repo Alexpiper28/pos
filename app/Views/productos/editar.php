@@ -77,7 +77,14 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="form-group mt-3">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <label>Fecha de vencimiento</label>
+                            <input class="form-control" id="fecha_vencimiento" name="fecha_vencimiento" type="date" value="<?php echo $producto['fecha_vencimiento']; ?>" required />
+                        </div>
+                    </div>
+                </div>
                 <div class="form-group mt-3">
                     <div class="row">
                         <div class="col-12 col-sm-6">

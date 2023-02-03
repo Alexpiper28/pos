@@ -41,13 +41,13 @@ $user_session = session();
                                                 <button class="btn btn-primary" type="submit">Login</button>
                                             </div>
                                             <?php  if(isset($validation)){ ?>
-                                                <div class="alert alert-danger">
+                                                <div class="alert alert-primary">
                                                     <?php echo $validation->listErrors(); ?>
                                                 </div>
                                             <?php } ?> 
 
                                             <?php  if(isset($error)){ ?>
-                                                <div class="alert alert-danger">
+                                                <div class="alert alert-primary">
                                                     <?php echo $error; ?>
                                                 </div>
                                             <?php } ?> 

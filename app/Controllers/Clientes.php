@@ -62,7 +62,8 @@ class Clientes extends BaseController
                 'nombre' => $this->request->getPost('nombre'), 
                 'direccion' => $this->request->getPost('direccion'), 
                 'telefono' => $this->request->getPost('telefono'), 
-                'correo' => $this->request->getPost('correo')]);
+                'correo' => $this->request->getPost('correo'),
+                'edad' => $this->request->getPost('edad')]);
             return redirect()->to(base_url().'/clientes');
         } else{
             $data = ['titulo' => 'Agregar cliente', 'validation' => $this->validator];
@@ -75,7 +76,8 @@ class Clientes extends BaseController
     public function editar($id)
     { 
         $cliente= $this->clientes->where('id', $id)->first();
-        $data = ['titulo' => 'Editar cliente', 'cliente' => $cliente];
+        $edad= $this->clientes->where('id', $id)->first();
+        $data = ['titulo' => 'Editar cliente', 'cliente' => $cliente, 'edad' => $edad];
         echo view('header');
         echo view('clientes/editar', $data);
         echo view('footer');
@@ -88,7 +90,8 @@ class Clientes extends BaseController
             ['nombre' => $this->request->getPost('nombre'), 
             'direccion' => $this->request->getPost('direccion'), 
             'telefono' => $this->request->getPost('telefono'), 
-            'correo' => $this->request->getPost('correo')]);
+            'correo' => $this->request->getPost('correo'),
+            'edad' => $this->request->getPost('edad')]);
         return redirect()->to(base_url().'/clientes');
     }
     public function eliminar($id)

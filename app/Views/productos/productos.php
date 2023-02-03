@@ -20,6 +20,7 @@
                                             <th>Nombre</th>
                                             <th>Precio</th>
                                             <th>Existencias</th>
+                                            <th>Fecha de vencimiento</th>
                                             <th>Imagen</th>
                                             <th></th>
                                             <th></th>
@@ -35,6 +36,7 @@
                                                 <td><?php echo $dato['nombre']; ?></td>
                                                 <td><?php echo $dato['precio_venta']; ?></td>
                                                 <td><?php echo $dato['existencias']; ?></td>
+                                                <td><?php echo $dato['fecha_vencimiento']; ?></td>
 
                                                 <td><img src="<?php echo base_url() . '/images/productos/'.$dato['id'].'/foto_1.jpg'; ?>" width="100" /></td>
                                                 
